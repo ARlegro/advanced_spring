@@ -5,7 +5,7 @@ import hello.advanced.trace.template.SubClassLogic1;
 import hello.advanced.trace.template.SubClassLogic2;
 import org.junit.jupiter.api.Test;
 
-public class templateMethodV1 {
+public class TemplateMethodV1 {
 
     @Test
     void templateTest(){
