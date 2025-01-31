@@ -1,8 +1,8 @@
 package hello.advanced.trace.templateMetodTest;
 
-import hello.advanced.trace.template.AbstractTemplate;
-import hello.advanced.trace.template.SubClassLogic1;
-import hello.advanced.trace.template.SubClassLogic2;
+import hello.advanced.trace.template.code.AbstractTemplate;
+import hello.advanced.trace.template.code.SubClassLogic1;
+import hello.advanced.trace.template.code.SubClassLogic2;
 import org.junit.jupiter.api.Test;
 
 public class TemplateMethodV1 {
@@ -12,7 +12,7 @@ public class TemplateMethodV1 {
         AbstractTemplate template1 = new SubClassLogic1();
         AbstractTemplate template2 = new SubClassLogic2();
 
-        template1.execute();
-        template2.execute();
+        template1.execute("test1");
+        template2.execute("test2");
     }
 }
